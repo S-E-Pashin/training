@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Центрирование содержимого на странице несколькими способами">
+		<!-- <link rel="stylesheet" href="../css/outline.css"> -->
+		<link rel="stylesheet" href="../css/style.css">
+    <title>Центрирование содержимого на странице несколькими способами</title>
+	</head>
+	<body>
+		<header>
+			<div class="main-nav">
+				<ul class="main-nav__list">
+					<li class="main-nav__item">
+            <a class="main-nav__link" href="../index.html">
+							Главная страница технологий
+						</a>
+					</li>
+						<li class="main-nav__item">
+							<a class="main-nav__link" href="#">
+								Центрирование содержимого на странице несколькими способами.
+							</a>
+						</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<section class="centering-section centering-section__type1">
+				<h2 class="centering-section__heading">Это секция №1 в которой будет центрироваться контейнер с содержимым. Центрирование с использованием <i>Абсолютного позиционирования и отрицательного отступа равного половине ширины дочернего(Позиционируемого) контейнера.</i></h2>
+				<div class="centering-item centering-item__type1">
+					<pre class="centering-item__pre">
+						<code class="centering-item__code">
+.centering-section__type1 {
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+}
+
+.centering-item__type1 {
+	position: relative;
+	left: 50%;
+	margin-left: -300px;
+}
+						</code>
+					</pre>
+				</div>
+				<div class="centering-item centering-item__type1"></div>
+				<div class="centering-item centering-item__type1"></div>
+				<div class="centering-item centering-item__type1"></div>
+			</section>
+
+			<section class="centering-section centering-section__type2">
+				<h2 class="centering-section__heading">Это секция №2 в которой будет центрироваться контейнер с содержимым. Центрирование с использованием <i>Флекса.</i></h2>
+				<div class="centering-item">
+					<pre class="centering-item__pre">
+						<code class="centering-item__code">
+.centering-section__type2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: space-between;
+}
+						</code>
+					</pre>
+				</div>
+				<div class="centering-item"></div>
+				<div class="centering-item"></div>
+				<div class="centering-item"></div>
+			</section>
+
+			<section class="centering-section centering-section__type3">
+				<h2 class="centering-section__heading">Это секция №3 в которой будет центрироваться контейнер с содержимым. Центрирование с использованием <i>Автоматического отступа слева и справа.</i></h2>
+				<div class="centering-item centering-item__type3">
+					<pre class="centering-item__pre">
+						<code class="centering-item__code">
+.centering-item__type3 {
+	margin-left: auto;
+	margin-right: auto;
+}
+						</code>
+					</pre>
+				</div>
+				<div class="centering-item centering-item__type3"></div>
+				<div class="centering-item centering-item__type3"></div>
+				<div class="centering-item centering-item__type3"></div>
+			</section>
+
+			<section class="centering-section centering-section__type4">
+				<h2 class="centering-section__heading">Это секция №4 в которой будет центрироваться контейнер с содержимым. Центрирование с использованием <i>Табличных стилей.</i></h2>
+				<div class="centering-item centering-item__type4">
+					<pre class="centering-item__pre centering-item__pre-type4">
+						<code class="centering-item__code">
+.centering-section__type4 {
+	display: table;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.centering-item__type4 {
+	display: inline-block;
+}
+
+.centering-item__pre-type4 {
+	text-align: left;
+}
+						</code>
+					</pre>
+				</div>
+				<div class="centering-item centering-item__type4"></div>
+				<div class="centering-item centering-item__type4"></div>
+				<div class="centering-item centering-item__type4"></div>
+			</section>
+
+			<section class="centering-section centering-section__type5">
+				<h2 class="centering-section__heading">Это секция №5 в которой будет центрироваться контейнер с содержимым. Центрирование с использованием <i>Табличных стилей.</i></h2>
+				<div class="centering-item centering-item__type5">
+					<pre class="centering-item__pre centering-item__pre-type5">
+						<code class="centering-item__code">
+.centering-section__type5 {
+}
+
+						</code>
+					</pre>
+				</div>
+				<div class="centering-item centering-item__type5"></div>
+				<div class="centering-item centering-item__type5"></div>
+				<div class="centering-item centering-item__type5"></div>
+			</section>
+		</main>
+		<footer>
+
+		</footer>
+	</body>
+</html>

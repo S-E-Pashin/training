@@ -1,0 +1,109 @@
+/* Файл variables.less */
+
+@bg-darkgrey: #292929;
+@bg-lightgrey: #f8f5f2;
+@tablet-width: 768px;
+@desktop-width: 1200px;
+
+
+
+/* Файл scaffolding.less */
+
+body {
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
+
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Arial", sans-serif;
+  color: #f7f4f1;
+  font-style: normal;
+
+  background-color: @bg-darkgrey;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+/* Файл mixins.less */
+
+.no-outline() {
+  outline: none;
+  background: transparent;
+
+  &::before {
+    display: none;
+  }
+}
+
+
+
+/* Файл outlines.less */
+
+body {
+  background: @bg-darkgrey url("img/bb-mobile.png") no-repeat 50% 0;
+  background-size: 720px auto;
+  min-height: 750px;
+}
+
+
+@media (min-width: @tablet-width) {
+  body {
+    background: @bg-darkgrey url("img/bb-tablet.png") no-repeat 50% 0;
+    background-size: 1178px auto;
+  }
+}
+
+
+@media (min-width: @desktop-width) {
+  body {
+    background: @bg-darkgrey url("img/bb-desktop.png") no-repeat 50% 0;
+    background-size: 1391px auto;
+  }
+}
+
+.nav-mock {
+  /* Временно для сетки */
+  min-height: 310px;
+}
+
+
+@media (min-width: @tablet-width) {
+  .nav-mock {
+    /* Временно для сетки */
+    min-height: 70px;
+  }
+}
+
+
+
+/* Файл blocks/page-header.less */
+
+.page-header {
+  display: flex;
+  flex-direction: column;
+}
+
+.page-header__logo {
+  height: 85px;
+}
+
+
+@media (min-width: @tablet-width) {
+  .page-header__logo {
+    order: 2;
+    height: 400px;
+  }
+}
+
+
+@media (min-width: @desktop-width) {
+  .page-header__logo {
+    height: 648px;
+  }
+}

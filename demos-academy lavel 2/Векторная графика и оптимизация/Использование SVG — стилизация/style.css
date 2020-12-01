@@ -1,0 +1,19 @@
+.beard::before {
+  content: "";
+  display: block;
+  width: 90px;
+  height: 86px;
+  background-color: brown;
+  mask-image: url('/assets/adaptive/13/barbershop-vector-graphic/img/mustache-icon.svg');
+  mask-repeat: no-repeat;
+  mask-position: 50% 50%;
+  mask-size: 90px;
+}
+
+.beard--green::before {
+  background-color: green;
+}
+
+.beard--blue::before {
+  background-color: blue;
+}

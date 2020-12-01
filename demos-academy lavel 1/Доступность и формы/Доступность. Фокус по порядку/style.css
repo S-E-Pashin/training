@@ -1,0 +1,30 @@
+body {
+    padding: 80px 100px;
+      font-family: sans-serif;
+  }
+  
+  nav {
+      display: flex;
+  }
+  
+  a {
+      padding: 20px 0;
+      width: 25%;
+      background: #21ae12;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+  }
+  
+  a:hover,
+  a:focus {
+    background: #ee5b33;
+  }
+  
+  a:focus {
+    outline: none;
+  }
+  
+  a:first-child {
+    order: 1;
+  }

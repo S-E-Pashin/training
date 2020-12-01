@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial", sans-serif;
+  font-size: 50px;
+}
+
+.container {
+  font-size: 0px;
+}
+
+.achievment {
+  position: relative;
+
+  display: inline-block;
+  width: 200px;
+  min-height: 50px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  padding-left: 55px;
+  
+  font-size: 16px;
+  vertical-align: top;
+
+  border-radius: 4px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+}
+
+.achievment-badge {
+  position: absolute;
+  left: 5px;
+
+  width: 44px;
+  height: 44px;
+
+  background: #0099ff;
+  border: 3px solid #cccccc;
+  border-radius: 4px;
+}
+
+.achievment-title {
+  margin-left: 10px;
+}
