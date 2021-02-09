@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Структуры для эммета</title>
+</head>
+<body>
+<!--  header.header>.main-nav>(ul.main-nav__list>li.main-nav__item*4)-->
+  <header class="page-header">
+    .main-nav>(ul.main-nav__list>(li.main-nav__item>a.main-nav__link{Главная})*4)
+  </header>
+  <main class="page-main">
+<!--    section.section-first>h1.page-main__heading{Главный заголовок который может быть скрыт.}+.promo__wrapper>.promo>h2.promo__heading{Заголовок промо блока}+.promo__gallery>(.promo__item.promo__item-$>(h3.promo__item-heading{Заголовок промо объявления}+p.promo__item-text{Текст объявления}))*3-->
+    <section class="section-first">
+      <h1 class="page-main__heading">Главный заголовок который может быть скрыт.</h1>
+      <div class="promo__wrapper">
+        <div class="promo">
+          <h2 class="promo__heading">Заголовок промо блока</h2>
+          <div class="promo__gallery">
+            <div class="promo__item promo__item-1">
+              <h3 class="promo__item-heading">Заголовок промо объявления</h3>
+              <p class="promo__item-text">Текст объявления</p>
+            </div>
+            <div class="promo__item promo__item-2">
+              <h3 class="promo__item-heading">Заголовок промо объявления</h3>
+              <p class="promo__item-text">Текст объявления</p>
+            </div>
+            <div class="promo__item promo__item-3">
+              <h3 class="promo__item-heading">Заголовок промо объявления</h3>
+              <p class="promo__item-text">Текст объявления</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
+
+
