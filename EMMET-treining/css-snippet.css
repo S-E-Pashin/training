@@ -1,0 +1,54 @@
+
+!flex
+
+display: flex$f$;
+flex-direction: row$c$;
+justify-content: start$s$;
+align-items: center$center$;
+
+
+
+
+!wh
+
+width: $w$px;
+height: $h$px;
+
+
+
+!margin
+
+margin-top: 0$mt$px;
+margin-right: 0$mr$px;
+margin-bottom: 0$mb$px;
+margin-left: 0$ml$px;
+
+
+
+!padding
+
+padding-top: 0$pt$px;
+padding-right: 0$pr$px;
+padding-bottom: 0$pb$px;
+padding-left: 0$pl$px;
+
+
+!font
+
+font-size: $fs$px;
+line-height: $lh$px;
+font-weight: 4$fw$00;
+text-align: center$ta$;
+
+
+
+
+
+
+
+
+
+
+
+
+
