@@ -2,51 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="964ad971-4c5d-446c-9bd8-f3441314712b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.stylelintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/css/style.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensans.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensans.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensansbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensansbold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensanslight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/fonts/opensanslight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/img/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/js/bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/css/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensans.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensans.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensansbold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensansbold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensanslight.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/fonts/opensanslight.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/img/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/js/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/blocks/body.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/blocks/form.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/blocks/header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/blocks/main-nav.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/blocks/promo.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/global/fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/global/global.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/global/variables.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/scss/style.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/entry.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.development.config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webpack/webpack.production.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webpack.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +75,6 @@
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Убирает лишнее" />
